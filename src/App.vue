@@ -1,20 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
+    <Tabbar/>
   </div>
 </template>
+<script>
+import Tabbar from '@/components/contents/tabbar/tabbar.vue'
+export default {
+  name:'app',
+  components:{
+    Tabbar
+  }
+
+}
+</script>
 
 <style>
+@import url(assets/css/base.css);
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 #nav {
