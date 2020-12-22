@@ -31,12 +31,7 @@ export default {
     },
     methods:{
         itemClick(){
-            
-            // let router_path = this.$route.path
-            // console.log(router_path)
             this.$router.replace(this.path)
-            // console.log(this.$router.path)
-            // this.isActive=!this.isActive
         }
     }
 }
@@ -44,13 +39,7 @@ export default {
 
 <style>
 .tabbaritem{
-    float: left;
+    height: 34px;
+    flex: auto;
 }
-.actived{
-    color: red;
-}
-/* .tabbaritem::after ::before{
-    display: block;
-    clear: both;
-} */
 </style>

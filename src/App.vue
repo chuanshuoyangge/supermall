@@ -18,13 +18,16 @@ export default {
 <style>
 @import url(assets/css/base.css);
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
   text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 300px;
 }
 
-#nav {
+/* #nav {
   padding: 30px;
 }
 
@@ -35,5 +38,5 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 </style>

@@ -24,6 +24,6 @@ export default {
         bottom: 0px;
         left: 0px;
         display: flex;
-
+        width: 100%;
     }
 </style>
