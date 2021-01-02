@@ -25,5 +25,6 @@ export default {
         left: 0px;
         display: flex;
         width: 100%;
+        background-color: antiquewhite;
     }
 </style>

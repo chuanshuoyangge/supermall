@@ -21,6 +21,7 @@ export default {
     .recommend{
         display: flex;
         width: 100%;
+        flex-wrap: wrap;
     }
     .recommend-item{
         flex: auto;
